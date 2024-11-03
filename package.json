@@ -1,9 +1,12 @@
 {
+  "homepage": "https://vinay980.github.io/Doctor-Registration-App",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d frontend",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
